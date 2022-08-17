@@ -19,6 +19,6 @@ jobs:
         with:
           api_key: ${{secrets.HEROKU_API_KEY}}
           email: ${{secrets.HEROKU_EMAIL}}
-          app_name: <APP_NAME_PROD>
+          app_name: aqueous-cove-84827
           heroku_branch: "master"
          # subfolder: ""
