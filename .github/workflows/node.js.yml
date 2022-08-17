@@ -21,4 +21,4 @@ jobs:
           email: ${{secrets.HEROKU_EMAIL}}
           app_name: na-new-app
           heroku_branch: "master"
-         # subfolder: ""
+          subfolder: ""
