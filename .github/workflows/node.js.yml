@@ -1,4 +1,4 @@
-name: na-new-app
+name: node-js-getting-started
 
 on:
   push:
@@ -19,6 +19,6 @@ jobs:
         with:
           api_key: ${{secrets.HEROKU_API_KEY}}
           email: ${{secrets.HEROKU_EMAIL}}
-          app_name: aqueous-cove-84827
+          app_name: na-new-app
           heroku_branch: "master"
          # subfolder: ""
