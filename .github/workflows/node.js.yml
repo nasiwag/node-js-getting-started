@@ -15,8 +15,8 @@ jobs:
       # possibly setup node action here...
       # possibly cache of node modules action here...
       # build steps here...
-      - uses: onekiloparsec/heroku-deploy@v1.1.0
-     # - uses: onekiloparsec/heroku-deploy@main
+      - uses: onekiloparsec/heroku-node-deploy-subfolder@v1.1.0
+     # - uses: onekiloparsec/heroku-node-deploy@main
         with:
           api_key: ${{secrets.HEROKU_API_KEY}}
           email: ${{secrets.HEROKU_EMAIL}}
