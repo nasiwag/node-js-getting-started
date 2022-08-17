@@ -3,7 +3,7 @@ name: my-awesome-actions-jobs-prod
 on:
   push:
     branches:
-      - master
+      - main
       
 jobs:
   deploy-prod:
