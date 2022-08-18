@@ -22,4 +22,3 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: 'na-app-02'
           heroku_email: 'javed@tymsol.com'
-          healthcheck: "https://na-app-02.herokuapp.com/health"
